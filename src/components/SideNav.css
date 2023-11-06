@@ -1,0 +1,64 @@
+.pixel2k23{
+    font-family: Algerian;
+    font-size:xx-large;
+}
+/* Main container */
+/* Main container */
+
+.CDBSidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Set a higher z-index */
+    background-color: rgba(0, 0, 0, 0.904); /* Semi-transparent background */
+  }
+  
+.dropdown {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Event link container */
+  .event-link {
+    display: flex;
+    align-items: center;
+    user-select: none;
+  }
+  
+  /* Event link text */
+  
+  /* Expand icon container */
+  .expand-icon {
+    font-size: 14px;
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212020; /* Gray background color */
+    min-width: 160px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(60, 60, 60, 0.959);
+   
+  }
+  
+  /* Show the dropdown content when the dropdown is open */
+  .dropdown.open .dropdown-content {
+    display: block;
+  }
+  
+  /* Dropdown item links */
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(61, 60, 60); /* Gray background color */
+    color: white; /* White font color */
+  }
+  
+  /* Hover effect on dropdown items */
+  .dropdown-content a:hover {
+    background-color: #888; /* Darker gray on hover */
+  }
+  
